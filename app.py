@@ -11,7 +11,7 @@ app = Flask(__name__)
 # Load models
 hotel_model = joblib.load("hotel_model.pkl")
 fare_model = joblib.load("fare_model.pkl")
-cafe_model = joblib.load("cafe_model_small.pkl")  # using small model
+cafe_model = joblib.load("cafe_model_.pkl")  # using small model
 
 # API key
 WEATHER_API_KEY = "6df60cb2e9804fafe1af8942beee9159"
