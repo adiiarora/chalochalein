@@ -1,4 +1,3 @@
---use-deprecated=legacy-resolver
 flask==2.2.5
 pandas==1.5.3
 numpy==1.23.5
